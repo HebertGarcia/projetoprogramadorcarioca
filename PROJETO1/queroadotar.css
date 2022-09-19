@@ -1,0 +1,66 @@
+.logo{
+    width: 200px;
+    float: right;
+    background-color: none;
+    background-image: none;
+}
+
+#imginicio{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.patas {
+    width: 150px;
+}
+
+.nav-item :hover {
+ background-color: rgb(120, 223, 236);
+ text-decoration: none;
+ font-family: arial black;
+}
+
+.descri{
+  text-align: center;
+}
+
+#container2 {
+    width: 100%;
+    margin: 20px;
+    padding: 70px;
+    display: inline-table;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dog1, .dog2, .dog3, .dog4, .dog5, .dog6, .dog7, .dog8, .dog9, .dog10{
+    display: inline-table;
+    border: 1px solid black; 
+    margin: 5px;
+    padding: 5px;
+}
+
+#pata01, #pata02, #pata03, #pata04, #pata05, #pata06, #pata07, #pata08, #pata09, #pata10 {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+
+
+.rodape {
+    text-align: center;
+    font: 15pt Arial;
+}
+
+@media only screen and (max-device-width: 375px) {
+    #container2 {margin: -10px;}
+    #imginicio {margin: -10px;}
+    .nav-item :hover {margin: -10px;}
+}
+

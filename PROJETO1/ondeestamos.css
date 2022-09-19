@@ -1,0 +1,87 @@
+.logo{
+    width: 200px;
+    float: right;
+    background-color: none;
+    background-image: none;
+}
+
+#imginicio{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.patas {
+    width: 150px;
+    
+}
+
+
+.nav-item :hover {
+ background-color: rgb(120, 223, 236);
+ text-decoration: none;
+ font-family: arial black;
+}
+
+ h1 {
+    font: 20pt Arial black;
+    text-align: center;
+}
+
+
+#container2{
+    width: 99%;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.endere1{
+    text-align: center;
+    display: inline-table;
+    width: 350px;
+    margin: 10px;
+    border: 5px solid rgba(60, 192, 245, 0.349);
+    border-radius: 10px;
+    float: left; 
+}
+
+.endere2{
+    text-align: center;
+    display: inline-table; 
+    width: 350px;
+    margin: 10px;
+    border: 5px solid rgb(60, 192, 245, 0.349);
+    border-radius: 10px;
+    float: left;
+  
+}
+
+.endere3{
+    text-align: center;
+    display: inline-table; 
+    width: 350px;
+    margin: 10px;
+    border: 5px solid rgba(60, 192, 245, 0.349);
+    border-radius: 10px;
+    float: left;
+   
+}
+
+.rodape {
+    text-align: center;
+    font: 15pt Arial;
+}
+
+
+@media only screen and (max-device-width: 375px) {
+    #container2 {margin: -10px;}
+    #imginicio {margin: -10px;}
+    .nav-item :hover {margin: -10px;}
+}
+
